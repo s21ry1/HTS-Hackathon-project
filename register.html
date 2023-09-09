@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <a href="#" class="nav-branding">M.C.R.</a>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="map.html">Alert</a></li>
+                <li class="nav-item"><a href="report.html">Reports</a></li>
+                <li class="nav-item"><a href="login.html">LogIn/Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <form id="registerForm" class="form">
+                <h2>Register</h2>
+                <div class="input-group">
+                    <label for="registerName">Name:</label>
+                    <input type="text" id="registerName" placeholder="Enter your name" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerFatherName">Father's Name:</label>
+                    <input type="text" id="registerFatherName" placeholder="Enter your father's name" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerContact">Contact:</label>
+                    <input type="text" id="registerContact" placeholder="Enter your contact" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerContact">Age:</label>
+                    <input type="text" id="registerContact" placeholder="Enter your Age" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerAddress">Address:</label>
+                    <input type="text" id="registerAddress" placeholder="Enter your address" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerPincode">Pincode:</label>
+                    <input type="text" id="registerPincode" placeholder="Enter your pincode" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="disease">Disease(Dengue):</label>
+                    <input type="radio" id="diseaseYes" name="disease" value="Yes" required>
+                    <label for="diseaseYes">Yes</label>
+                    <input type="radio" id="diseaseNo" name="disease" value="No" required>
+                    <label for="diseaseNo">No</label>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <div class="form-spacing">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Municlean Report All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
